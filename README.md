@@ -4,6 +4,9 @@ Provides a middleware with a custom attribute to validate token and protect API 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process
+	These two values are required in appsettings file:
+	CertificatePath: Path to public key certificate
+	CertificatePassword: Password for certificate (if any)
 2.	Software dependencies
 3.	Latest releases
 4.	API references
