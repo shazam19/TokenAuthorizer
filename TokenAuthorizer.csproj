@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <PackageId>sz.TokenAuthorizer.Sz.Test</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>Shamsad Zaman</Authors>
+	  <Company>Selise</Company>
+	  <Description>Ecap token verifier for 3rd party application</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
